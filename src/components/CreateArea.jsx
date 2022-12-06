@@ -19,9 +19,7 @@ function CreateArea(props) {
   }
 
   function box() {
-    setExtend((prevalue) => {
-      return !prevalue;
-    });
+    setExtend(true);
   }
 
   return (

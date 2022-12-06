@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import RemoveIcon from "@material-ui/icons/Remove";
 
 function Note(props) {
