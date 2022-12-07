@@ -22,11 +22,18 @@ function CreateArea(props) {
     setExtend(true);
   }
 
+  function handleKeyDown(event) {
+    if (event.key === "Enter") {
+      event.preventDefault();
+    }
+  }
+
   return (
     <div>
       <form className="create-note">
         {extend ? (
           <input
+            onKeyDown={handleKeyDown}
             value={text.title}
             onChange={saved}
             name="title"

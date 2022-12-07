@@ -1,13 +1,13 @@
 import React from "react";
-import ListAltIcon from "@material-ui/icons/ListAlt";
 
 function Header() {
   return (
     <header>
-      <h1>
-        <ListAltIcon />
-        Keeper
-      </h1>
+      <img
+        src="https://img.icons8.com/bubbles/50/null/apple-notes.png"
+        alt="icon"
+      />
+      <h1>Keeper</h1>
     </header>
   );
 }
